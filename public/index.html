@@ -11,29 +11,31 @@
       <header> <h1> My Score Board </h1> </header>
 
       <div class="flex">
-        <section class="team-one">
-        <h4> Team 1 </h4>
-        <h1 >0</h1>
-        <h4>Update Team 1 Name</h4>
-        <input >
-        <button>Update</button>
 
-         <h4>Update Team 1 Score</h4>
-        <button>Add 1</button>
-        <button>Subtract 1</button>
+        <section class="team-one">
+          <h4 id="Name1Team"> Team 1 </h4>
+          <h1 id="scoreone">0</h1>
+          <h4>Update Team 1 Name</h4>
+          <input type="text" id="team1name" placeholder="Update name...">
+          <button onclick="UpdateName1()">Update</button>
+
+          <h4>Update Team 1 Score</h4>
+          <button onclick="Add1Team1()" >Add 1</button>
+          <button onclick="Sub1Team1()">Subtract 1</button>
         </section>
 
         <section class="team-two">
-        <h4 >Team 2</h4>
-        <h1 >0</h1>
-        <h4> Update Team 2 Name </h4>
-        <input >
-        <button> Update </button>
+          <h4 id="Name2Team">Team 2</h4>
+          <h1 id="scoretwo" >0</h1>
+          <h4> Update Team 2 Name </h4>
+          <input id="team2name" placeholder="Update name...">
+          <button onclick="UpdateName2()">Update</button>
 
-        <h4>Update Team 2 Score </h4>
-        <button>Add 1</button>
-        <button> Subtract 1</button>
-         </section>
+          <h4>Update Team 2 Score </h4>
+          <button onclick="Add1Team2()">Add 1</button>
+          <button onclick="Sub1Team2()"> Subtract 1</button>
+        </section>
+
     </div>
 
     
